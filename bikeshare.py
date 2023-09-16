@@ -20,8 +20,8 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     cities = ['Chicago' , 'New York City', 'wWshington']
     while True:
-        city = input("please enter a city from the listed cities: ").lower()
-        if city not in CITY_DATA.keys():
+        c = input("please enter a city from the listed cities: ").lower()
+        if c not in CITY_DATA.keys():
             print("Please enter a correct city")
         else:
             break
@@ -45,7 +45,7 @@ def get_filters():
             break
 
     print('-'*40)
-    return city, month, day
+    return c, month, day
 
 
 def load_data(city, month, day):
