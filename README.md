@@ -9,6 +9,7 @@ _Bikeshare_ Project
 ### Description
 The project displays some **statistics** about sharing **bike** system in three cities in the USA , _Washigton_, _New york City_ and _Chicago_ in the first six month in 2017.
 It requests a specific input from the user about selecting a city, a day and a month in that period only.
+The code chase-up any error in users' input and asks another correct option from listed options in the _code_.
 
 ### Files used
 Datasets from three files:
